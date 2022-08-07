@@ -1,15 +1,7 @@
-# neume-network-core
 
-[![dry run prettier](https://github.com/neume-network/core/actions/workflows/prettier.yml/badge.svg)](https://github.com/neume-network/core/actions/workflows/prettier.yml)
-[![unit tests](https://github.com/neume-network/core/actions/workflows/node.js.yml/badge.svg)](https://github.com/neume-network/core/actions/workflows/node.js.yml)
+We are using neume recording audio based incidents where video is not possible to record. This will enable us to develop a socially scalable and open-source metadata retrieval, indexing, and management infrastructure for decentralized road incident management. Bandwidth is a major issue in India and neume protocol fits right at the spot for quick data retrieval where video is not possible due to high latency or unavailability of network for video streaming.
 
-## installation
-
-We're still building neume network so things are drastically changing all the
-time. It may be that the main branch isn't working. But we're tagging
-individual git commits that end up producing good results. Check
-[changelog.md](https://github.com/neume-network/core/blob/main/changelog.md)
-for all available tags.
+Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file and roadincidentmanagement.mp4)). We are also using it for decentralized social sharing of road incident data (please visit  Decentralizedroadcounselingatincidents.mov)
 
 ### prerequsites
 
@@ -74,10 +66,6 @@ A directory containing the outputs of all @neume-network/strategies is called
 the `DATA_DIR`. Apart from guaranteeing the environment variable's existence,
 @neume-network/core must guarantee the directory's existence on the user's file
 system.
-
-## contributing
-
-See [contributing.md](./contributing.md)
 
 ## license
 
