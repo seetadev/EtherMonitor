@@ -1,8 +1,9 @@
+We are trying to utilize Spinamp for audio streaming road incidents where video streaming is not possible to implement. Bandwidth is a major issue in India and Spinamp fits right at the spot for quick data retrieval where video is not possible due to high latency or unavailability of network for video streaming. Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file and roadincidentmanagement.mp4)). We are also using it for decentralized social sharing of road incident data (please visit  Decentralizedroadcounselingatincidents.mov)
+
+
 # web3-music-subgraph
 
-This is a fork of Spinamp's web3-music-subgraph that aggregates various web3 music platforms. The goal is to aggregate all web3 music into a single, highly normalized and queryable schema. 
-
-- Running live [here](https://thegraph.com/hosted-service/subgraph/timdaub/web3musicsubgraph?version=current)
+This is based on a fork of Spinamp's web3-music-subgraph that aggregates various web3 music platforms. The goal is to aggregate all web3 music into a single, highly normalized and queryable schema. 
 
 ## Usage in neume-network
 
