@@ -1,0 +1,163 @@
+//* comment *//
+
+Copyright (C) 2015 Sam Parkinson
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+//* arg-globals *//
+const mathBlock = globalActivity.logo.blockList[blk];
+const conns = mathBlock.connections;
+
+//* block-globals *//
+const simpleOneArgBlock = function (name, label, defaultValue) {
+    if (label === undefined) { var label = name; }
+    const block = new ProtoBlock(name);
+    block.palette = globalActivity.palettes.dict['maths'];
+    globalActivity.blocks.protoBlockDict[name] = block;
+    block.staticLabels.push(label);
+    block.adjustWidthToLabel();
+    block.oneArgMathBlock();
+    if (defaultValue === undefined) {
+        block.defaults.push(1.0);
+    } else {
+        block.defaults.push(defaultValue);
+    }
+};
+
+const simpleTwoArgBlock = function (name, labels, defaultValues) {
+    const block = new ProtoBlock(name);
+    block.palette = globalActivity.palettes.dict['maths'];
+    globalActivity.blocks.protoBlockDict[name] = block;
+    for (let i = 0; i < labels.length; i++) {
+        block.staticLabels.push(labels[i]);
+    }
+    block.adjustWidthToLabel();
+    block.twoArgMathBlock();
+    for (let i = 0; i < defaultValues.length; i++) {
+        block.defaults.push(defaultValues[i]);
+    }
+};
+
+const staticBlock = function (name, label) {
+    const block = new ProtoBlock(name);
+    block.palette = globalActivity.palettes.dict['maths'];
+    globalActivity.blocks.protoBlockDict[name] = block;
+    block.staticLabels.push(label);
+    block.adjustWidthToLabel();
+    block.parameterBlock();
+};
+
+//* block:power *//
+simpleTwoArgBlock('power', [_('power'), _('base'), _('exp')], [10, 2]);
+//* arg:power *//
+var base = logo.parseArg(logo, turtle, conns[1]);
+var exp  = logo.parseArg(logo, turtle, conns[2]);
+mathBlock.value = Math.pow(base, exp);
+
+//* block:sin *//
+simpleOneArgBlock('sin', 'sin', '3.14159');
+//* arg:sin *//
+mathBlock.value = Math.sin(logo.parseArg(logo, turtle, conns[1]));
+
+//* block:cos *//
+simpleOneArgBlock('cos', 'cos', '3.14159');
+//* arg:cos *//
+mathBlock.value = Math.cos(logo.parseArg(logo, turtle, conns[1]));
+
+//* block:tan *//
+simpleOneArgBlock('tan', 'tan', '3.14159');
+//* arg:tan *//
+mathBlock.value = Math.tan(logo.parseArg(logo, turtle, conns[1]));
+
+//* block:asin *//
+simpleOneArgBlock('asin', 'asin', 0);
+//* arg:asin *//
+mathBlock.value = Math.asin(logo.parseArg(logo, turtle, conns[1]));
+
+//* block:acos *//
+simpleOneArgBlock('acos', 'acos', 0);
+//* arg:acos *//
+mathBlock.value = Math.acos(logo.parseArg(logo, turtle, conns[1]));
+
+//* block:atan *//
+simpleOneArgBlock('atan', 'atan', 1);
+//* arg:atan *//
+mathBlock.value = Math.atan(logo.parseArg(logo, turtle, conns[1]));
+
+//* block:floor *//
+simpleOneArgBlock('floor', _('floor'), 0.5);
+//* arg:floor *//
+mathBlock.value = Math.floor(logo.parseArg(logo, turtle, conns[1]));
+
+//* block:ceiling *//
+simpleOneArgBlock('ceiling', _('ceiling'), 0.5);
+//* arg:ceiling *//
+mathBlock.value = Math.ceil(logo.parseArg(logo, turtle, conns[1]));
+
+//* block:degrees *//
+simpleOneArgBlock('degrees', _('to degrees'), 3.14159);
+//* arg:degrees *//
+mathBlock.value = logo.parseArg(logo, turtle, conns[1]) * (180/Math.PI);
+
+//* block:radians *//
+simpleOneArgBlock('radians', _('to radians'), 180);
+//* arg:radians *//
+mathBlock.value = logo.parseArg(logo, turtle, conns[1]) * (Math.PI/180);
+
+//* block:pi *//
+staticBlock('pi', 'π');
+//* arg:pi *//
+mathBlock.value = Math.PI;
+
+//* block:e *//
+staticBlock('e', 'e');
+//* arg:e *//
+mathBlock.value = Math.E;
+
+//* palette-icon:maths *//
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="55"
+   height="55"
+   viewBox="0 0 55 55"
+   id="svg2"
+   xml:space="preserve"><metadata
+     id="metadata13"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs11" /><g
+     id="toolbar-trigonometry"
+     style="fill:#000000;display:block"><path
+       d="m 11.852704,38.123539 31.294591,0 -31.294591,-26.247077 z"
+       id="path5"
+       style="fill:none;stroke:#FF6EA1;stroke-width:3.53326035" /><path
+       d="m 11.852704,30.047514 8.076024,0 0,8.076025"
+       id="path7"
+       style="fill:none;stroke:#FF6EA1;stroke-width:1.51425433" /></g></svg>
+
+//* palette-fill:maths *//
+#FF6EA1
+//* palette-stroke:maths *//
+#FF2C76
+//* palette-highlight:maths *//
+#FF5293
+//* palette-stroke-highlight:maths *//
+#FFCDDF
+

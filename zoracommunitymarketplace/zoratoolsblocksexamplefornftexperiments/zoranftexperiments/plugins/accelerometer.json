@@ -1,0 +1,13 @@
+{
+    "GLOBALS": "globalActivity.logo.pluginVars['accelerometer'] = {'x': null, 'y': null, 'z': null};const saveAccelerometerData = function (event) {    globalActivity.logo.pluginVars['accelerometer']['x'] = event.accelerationIncludingGravity.x;    globalActivity.logo.pluginVars['accelerometer']['y'] = event.accelerationIncludingGravity.y;    globalActivity.logo.pluginVars['accelerometer']['z'] = event.accelerationIncludingGravity.z;};if (window.DeviceMotionEvent) {    window.addEventListener('devicemotion', saveAccelerometerData, false);}else {    globalActivity.errorMsg('DeviceMotionEvent is not supported (no accelerometer)');}",
+    "ARGPLUGINS": {
+        "accelerometerx": "const accelBlock = globalActivity.blocks.blockList[blk];accelBlock.value = globalActivity.logo.pluginVars['accelerometer']['x'];",
+        "accelerometery": "const accelBlock = globalActivity.blocks.blockList[blk];accelBlock.value = globalActivity.logo.pluginVars['accelerometer']['y'];",
+        "accelerometerz": "const accelBlock = globalActivity.blocks.blockList[blk];accelBlock.value = globalActivity.logo.pluginVars['accelerometer']['z'];"
+    },
+    "BLOCKPLUGINS": {
+        "accelerometerx": "const accelerometerXBlk = new ProtoBlock('accelerometerx');accelerometerXBlk.palette = globalActivity.palettes.dict['sensors'];globalActivity.blocks.protoBlockDict['accelerometerx'] = accelerometerXBlk;accelerometerXBlk.staticLabels.push(_('motion x'));accelerometerXBlk.adjustWidthToLabel();accelerometerXBlk.parameterBlock();",
+        "accelerometery": "const accelerometerYBlk = new ProtoBlock('accelerometery');accelerometerYBlk.palette = globalActivity.palettes.dict['sensors'];globalActivity.blocks.protoBlockDict['accelerometery'] = accelerometerYBlk;accelerometerYBlk.staticLabels.push(_('motion y'));accelerometerYBlk.adjustWidthToLabel();accelerometerYBlk.parameterBlock();",
+        "accelerometerz": "const accelerometerZBlk = new ProtoBlock('accelerometerz');accelerometerZBlk.palette = globalActivity.palettes.dict['sensors'];globalActivity.blocks.protoBlockDict['accelerometerz'] = accelerometerZBlk;accelerometerZBlk.staticLabels.push(_('motion z'));accelerometerZBlk.adjustWidthToLabel();accelerometerZBlk.parameterBlock();"
+    }
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4238"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="500"
+   height="500"
+   viewBox="0 0 500 500"
+   sodipodi:docname="bottle.svg">
+  <metadata
+     id="metadata4244">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4242" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1375"
+     inkscape:window-height="876"
+     id="namedview4240"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1.414"
+     inkscape:cx="250"
+     inkscape:cy="250"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4238">
+    <sodipodi:guide
+       position="250.35361,253.88967"
+       orientation="1,0"
+       id="guide7083" />
+    <sodipodi:guide
+       position="340.87694,239.7454"
+       orientation="0,1"
+       id="guide7085" />
+    <sodipodi:guide
+       position="341.58416,449.78784"
+       orientation="0,1"
+       id="guide7087" />
+    <sodipodi:guide
+       position="196.60537,50.919378"
+       orientation="0,1"
+       id="guide7089" />
+  </sodipodi:namedview>
+  <path
+     style="fill:#000000"
+     d="m 173.67968,445.71854 -3.82971,-3.82972 0.0185,-101.09711 c 0.0199,-109.21625 -0.0175,-108.66334 8.54127,-126.15668 4.73173,-9.67133 15.77461,-22.4804 23.49325,-27.2508 l 5.39292,-3.33305 0,-63.13378 0,-63.133808 3.82973,-3.829686 3.82968,-3.829722 35.74627,0 c 33.801,0 35.96996,0.17598 39.85729,3.233741 l 4.11104,3.23374 0,63.469635 0,63.46964 7.13839,3.7869 c 12.71297,6.74422 22.90121,21.84894 27.91975,41.39273 2.02442,7.88383 2.38786,24.81539 2.38786,111.23873 l 0,101.93952 -3.82971,3.8297 -3.82969,3.82971 -73.4736,0 -73.47361,0 -3.82969,-3.82969 z m 96.0263,-339.42535 0,-31.205002 -18.72301,0 -18.72299,0 0,31.205002 0,31.205 18.72299,0 18.72301,0 0,-31.205 z"
+     id="path7091"
+     inkscape:connector-curvature="0" />
+</svg>
