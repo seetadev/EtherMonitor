@@ -1,22 +1,6 @@
-<h1 align="center">
-  <a href="https://nft.storage"><img width="75%" src="https://nft.storage/images/logo-nft.storage.svg" alt="NFT.Storage logo" /></a>
-</h1>
+We are using NFT.Storage  for storing a variety of offchain data like incident snapshots, alarm metadata and object types at the time of incident. Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file). We are storing Alarm metadata using NFT.Storage. Also, Saving/deleting alarm metadata and image to/from IPFS using NFT.Storage. We are also storing the hash returned from IPFS to Ethereum test network using  NFT.Storage.
+ Further we are using NFT.Storage for: Video analytics configuration using NFT.Storage; Camera Management: Add/edit/delete cameras with integration with Livepeer, NFT.Storage; Live streaming with Object Detection Video Analytics using Livepeer for streaming, and NFT.Storage for snapshots.
 
-<h3 align="center">Free decentralized storage and bandwidth for NFTs on IPFS and Filecoin.</h3>
-
-<p align="center">
-  <a href="https://discord.com/channels/806902334369824788/831502708082081822"><img src="https://img.shields.io/badge/chat-discord?style=for-the-badge&logo=discord&label=discord&logoColor=ffffff&color=7389D8" /></a>
-  <a href="https://twitter.com/nft_storage"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/nft_storage?color=00aced&label=twitter&logo=twitter&style=for-the-badge"></a>
-</p>
-
-# Table of Contents <!-- omit in toc -->
-
-- [Client Libraries](#client-libraries)
-- [HTTP API](#http-api)
-- [Developer Tools](#developer-tools)
-- [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
 
 # Client Libraries
 
