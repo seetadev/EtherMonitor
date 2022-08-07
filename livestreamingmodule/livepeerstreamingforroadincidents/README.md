@@ -1,5 +1,7 @@
 # Livepeer.com API utilization for Road Incidents. 
 
+We are using Livepeer as the key infrastructure provider for online video streaming of critical road incidents ( Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file and roadincidentmanagement.mp4)). We are using Livepeer at: Live streaming with Object Detection Video Analytics using Livepeer for streaming; Camera Management: Add/edit/delete cameras with integration with Livepeer.
+
 This is an app to use Livepeer.com APIs to create a live stream for effective design, engineering and delivery of blockchain technology aided solution for vehicles and citizens to make roads safer and better for everyone using predictive analytics and automation. The app enables the user to create a stream and play it back.
 
 **Note: To start a video stream, please use a broadcaster software like OBS/Streamyard on desktop, or Larix on mobile**
