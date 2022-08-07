@@ -1,4 +1,7 @@
-## A Livepeer Broadcasters End to End Tutorial
+We are using Livepeer as the key infrastructure provider for online video streaming of critical road incidents ( Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file and roadincidentmanagement.mp4)). We are using Livepeer at: Live streaming with Object Detection Video Analytics using Livepeer for streaming; Camera Management: Add/edit/delete cameras with integration with Livepeer.
+
+## We are using the Livepeer Broadcasters End to End Tutorial to emulate the end to end chat experience
+
 ### Table of Contents
 * [Introduction/Ecosystem Explanation](#introduction)
 * [Simple Livepeer Video Player](#simple-livepeer-video-player)
@@ -6,10 +9,6 @@
 * [Deploy the Chat App](#deploy-our-chat-app)
 * [Errors](#errors)
 
-### Introduction
-This tutorial will show you the power of livepeer and how you as a web developer might be able to leverage the platform to enhance the decentralized streaming ecosystem.  
-
-Topics Covered:
 - React
 - Livepeer.js
 - Node
