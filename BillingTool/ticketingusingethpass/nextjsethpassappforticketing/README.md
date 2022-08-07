@@ -1,3 +1,5 @@
+We are trying to utilize ethpass to enable ticketing and royalty management by Ministry of Road and Transportation for a variety of sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control, customer bonus points. Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file and roadincidentmanagement.mp4)). We are also using it for decentralized social sharing of road incident data (please visit Decentralizedroadcounselingatincidents.mov)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), [`rainbow-kit`](https://github.com/rainbow-me/rainbowkit) and [`tailwind-css`](https://tailwindcss.com/)
 
 ## Getting Started
@@ -36,11 +38,4 @@ Scan passes to verify ownership and view the data you encoded in the barcode.
 
 ![scan](https://user-images.githubusercontent.com/3741055/180848044-41bb75de-1654-49c1-8ae1-dbd7a9790c88.gif)
 
-## Documentation
-
-For full API documentation, visit [docs.ethpass.xyz](https://docs.ethpass.xyz).
-
-## Troubleshooting
-
-- Camera not working on mobile devices
-  - Make sure the web server has valid SSL certificates and is available with `https://`
+\
