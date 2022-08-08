@@ -55,12 +55,13 @@ https://github.com/seetadev/EtherMonitor/tree/main/livestreamingmodule
 
 We are also using it for decentralized social sharing and road counselling at  incident spot (please visit  Decentralizedroadcounselingatincidents.mov)
 
-We are using Lit protocol to  automate signing, reading, and writing road incident metadata (snapshots) and alarm viewer data to web3 decentralized networks (Ethereum and IPFS). 
+
+Lit:We are using Lit protocol to  automate signing, reading, and writing road incident metadata (snapshots) and alarm viewer data to web3 decentralized networks (Ethereum and IPFS). 
 
 
 Neume:
-We are using neume recording audio based incidents where video is not possible to record. This will enable us to develop a socially scalable and open-source metadata retrieval, indexing, and management infrastructure for decentralized road incident management. Bandwidth is a major issue in India and neume protocol fits right at the spot for quick data retrieval where video is not possible due to high latency or unavailability of network for video streaming.
+We are using neume recording audio based incidents where video is not possible to record. This will enable us to develop a socially scalable and open-source metadata retrieval, indexing, and management infrastructure for decentralized road incident management. Bandwidth is a major issue in India and neume protocol fits right at the spot for quick data retrieval where video is not possible due to high latency or unavailability of network for video streaming. Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file and roadincidentmanagement.mp4))
 
 
 Spinamp:
-We are trying to utilize Spinamp for audio streaming road incidents where video streaming is not possible to implement. Bandwidth is a major issue in India and Spinamp fits right at the spot for quick data retrieval where video is not possible due to high latency or unavailability of network for video streaming. 
+We are trying to utilize Spinamp for audio streaming road incidents where video streaming is not possible to implement. Bandwidth is a major issue in India and Spinamp fits right at the spot for quick data retrieval where video is not possible due to high latency or unavailability of network for video streaming. Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file and roadincidentmanagement.mp4))
