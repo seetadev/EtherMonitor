@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="https://unpkg.com/@livepeer/video-nft@0.3.6/dist/index.umd.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div class="relative flex min-h-screen flex-col justify-center overflow-hidden dark:bg-[#161618] py-6 sm:py-12">
+        <div
+            class="relative bg-[#1c1c1f] px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10 w-9/12">
+            <div class="mx-auto max-w-md">
+                <div class=" text-base font-semibold leading-7">
+                    <p class="text-white">Upload Video</p>
+                </div>
+                <div class="divide-y divide-gray-300/50">
+                    <div class="space-y-6 py-8 text-base leading-7 text-white">
+
+                        <div class="mb-4">
+                            <label class="" for="title">
+                                NFT Title
+                            </label>
+                            <input
+                                class="shadow bg-transparent  border rounded w-full py-2 px-3 text-[#00eb88] leading-tight focus:outline-none focus:shadow-outline"
+                                id="title" type="text" placeholder="NFT Title">
+                        </div>
+
+                        <video controls id="video-tag">
+                            <source id="video-source" src="splashVideo">
+                            Your browser does not support the video tag.
+                        </video>
+
+
+                        <div class=" text-base font-semibold leading-7">
+                            <p class="text-white">Attach Video</p>
+                        </div>
+                        <section id="drop-area"
+                            class="outline-dashed outline-2 outline-offset-2 outline-white p-2 rounded-md  justify-center h-32 w-full">
+                            <input class="h-32 w-full" type="file" id="file" accept="video/mp4"
+                                onchange="handleFiles(this.files)" style="display:none">
+                            <p>Drag and Drop Here</p>
+                            <label for="file">Upload</label>
+                        </section>
+
+                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                            <div id="progress-bar"
+                                class="transition-all ease-out duration-1000 bg-[#00eb88] h-2.5 rounded-full"
+                                style="width:0%"></div>
+                        </div>
+                        <div class=" text-base  leading-7">
+                            <p class="text-white">Accepted Video Files Type 🎥📁 : <span class="text-[#00eb88] ">.mp4
+                                    only</span></p>
+                            <p class="text-white">Accepted Chain ⛓️: <span class="text-[#8e7ee3]">Polygon
+                                    blockchain</span></p>
+                        </div>
+                        <button id="mint-btn"
+                            class="bg-transparent hover:bg-[#00eb88] text-[#00eb88]  font-semibold hover:text-white py-2 px-4 border border-[#00eb88]  hover:border-transparent rounded w-full"
+                            onClick="mintNft()">Mint</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="/js/ui.js"></script>
+<script type="text/javascript" src="/js/sdk.js"></script>
+
+
+</html>
