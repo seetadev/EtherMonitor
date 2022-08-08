@@ -1,4 +1,6 @@
-# Video NFT Sample
+#Building a road incident video nft uploader
+
+We are using Livepeer as the key infrastructure provider for online video streaming of critical road incidents ( Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file and roadincidentmanagement.mp4)). We are using Livepeer at: Live streaming with Object Detection Video Analytics using Livepeer for streaming; Camera Management: Add/edit/delete cameras with integration with Livepeer.
 
 ## Step 0. Installations
 
@@ -259,6 +261,6 @@ if you want to deploy on vercel you will need the vercel.json file
 ```
 
 
-🎂 Congrats! You finished building an video nft uploader! 
+
 
 
