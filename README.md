@@ -5,6 +5,8 @@ Goal: Effective design, engineering and delivery of Ethereum blockchain technolo
 
 Solution: Technical solution for citizens, police officers and drivers to report and manage incidents, detect and prevent accidents on web and mobile.
 
+Demos and Slides: https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza
+
 Frontend: We have developed a road incident management system using Javascript, HTML5, SAP's UI5 on the front end using Livepeer open source video streaming system and crowdsourcing marketplace using Zora's auction house template for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control powered by Ethercalc (SocialCalc), Zora, Polygon, NFT.Storage, ethpass, Litprotocol for security and neume for data retrieval and live peer for online video streaming at the road incident spot for better coordination and immediate action.
 How it works:
 1. Camera Management: Add/edit/delete cameras with integration with Livepeer, NFT.Storage for snapshots of road incident, ethpass for toll ticketing, neume for data retrieval.
