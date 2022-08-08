@@ -53,10 +53,11 @@ We are using Livepeer as the key infrastructure provider for online video stream
 
 https://github.com/seetadev/EtherMonitor/tree/main/livestreamingmodule
 
-We are also using it for decentralized social sharing and road counselling at  incident spot (please visit  Decentralizedroadcounselingatincidents.mov)
+We are also using it for decentralized social sharing and road counselling at  incident spot (please visit  Zoraroadcounselingatincidents.mov)
 
 
-Lit:We are using Lit protocol to  automate signing, reading, and writing road incident metadata (snapshots) and alarm viewer data to web3 decentralized networks (Ethereum and IPFS). 
+
+Lit: We are using Lit protocol to  automate signing, reading, and writing road incident metadata (snapshots) and alarm viewer data to web3 decentralized networks (Ethereum and IPFS). 
 
 
 Neume:
