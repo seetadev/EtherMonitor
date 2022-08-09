@@ -1,4 +1,9 @@
-# Example App using IPFS and Lit
+LIT Protocol for Data Security:
+
+We are using Lit protocol to automate signing, reading, and writing road incident metadata (snapshots) and alarm viewer data to web3 decentralized networks (Ethereum and IPFS).
+
+
+# Database App using IPFS and Lit
 
 This example shows how to upload a file to IPFS, encrypt the link to the file, and then decrypt the link to display the image. 
 
