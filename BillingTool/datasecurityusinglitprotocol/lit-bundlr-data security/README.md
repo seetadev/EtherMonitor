@@ -1,4 +1,5 @@
-LIT Protocol for Data Security
+LIT Protocol for Data Security:
+
 We are using Lit protocol to automate signing, reading, and writing road incident metadata (snapshots) and alarm viewer data to web3 decentralized networks (Ethereum and IPFS).
 
 # How to use Bundlr/Arweave with Lit
