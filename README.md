@@ -1,9 +1,10 @@
 # EtherMonitor
-Monitoring tools for road incident management and reducing traffic congestion. Crowdsourcing information sharing for better and safer roads.
+Monitoring tools for road incident management and reducing traffic congestion. Crowdsourcing information sharing for better and safer roads using ASDI OpenAQ dataset.
 
 Goal: Effective design, engineering and delivery of Ethereum blockchain technology aided solution for vehicles and citizens to make roads safer and better for everyone using predictive analytics and automation. 
 
 Solution: Technical solution for citizens, police officers and drivers to report and manage incidents, detect and prevent accidents on web and mobile.
+This project utilizes AirQualityQuotient (AQQ) Tool build using "Amazon ASDI OpenAQ" dataset and maps it with road incident manager for early detection and prediction of road incidents, reduce traffic congestion in areas of low visibility.
 
 Demos and Slides: https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza
 
