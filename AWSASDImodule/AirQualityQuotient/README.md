@@ -1,4 +1,4 @@
-# This project utilizes AirQualityQuotient (AQQ) Tool and maps it with road incident manager for early detection and prediction of road incidents, reduce traffic congestion in areas of low visibility. 
+# This project utilizes AirQualityQuotient (AQQ) Tool build using "Amazon ASDI OpenAQ" dataset and maps it with road incident manager for early detection and prediction of road incidents, reduce traffic congestion in areas of low visibility. 
 
 # How are we helping
 
