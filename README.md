@@ -1,11 +1,9 @@
 # EtherMonitor
-Monitoring tools for road incident management and reducing traffic congestion. Crowdsourcing information sharing for better and safer roads using ASDI OpenAQ dataset.
+Monitoring tools for road incident management and reducing traffic congestion. Crowdsourcing information sharing for better and safer roads.
 
 Goal: Effective design, engineering and delivery of Ethereum blockchain technology aided solution for vehicles and citizens to make roads safer and better for everyone using predictive analytics and automation. 
 
 Solution: Technical solution for citizens, police officers and drivers to report and manage incidents, detect and prevent accidents on web and mobile.
-
-Amazon ASDI OpenAQ initiative: This project utilizes AirQualityQuotient (AQQ) Tool build using "Amazon ASDI OpenAQ" dataset and maps it with road incident manager for early detection and prediction of road incidents, reduce traffic congestion in areas of low visibility. Please visit https://github.com/seetadev/EtherMonitor/tree/main/AWSASDImodule/AirQualityQuotient
 
 Demos and Slides: https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza
 
@@ -59,6 +57,8 @@ We are using NFT.Storage  for storing a variety of offchain data like incident s
 
 https://github.com/seetadev/EtherMonitor/tree/main/incidentandalarmstorage
 
+
+Amazon ASDI OpenAQ initiative: This project utilizes AirQualityQuotient (AQQ) Tool build using "Amazon ASDI OpenAQ" dataset and maps it with road incident manager for early detection and prediction of road incidents, reduce traffic congestion in areas of low visibility. Please visit https://github.com/seetadev/EtherMonitor/tree/main/AWSASDImodule/AirQualityQuotient
 
 Livepeer: 
 We are using Livepeer as the key infrastructure provider for online video streaming of critical road incidents ( Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file and roadincidentmanagement.mp4)). We are using Livepeer at: Live streaming with Object Detection Video Analytics using Livepeer for streaming; Camera Management: Add/edit/delete cameras with integration with Livepeer.
