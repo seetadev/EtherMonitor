@@ -9,7 +9,8 @@ Demos and Slides: https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_
 
 Landing Website: https://sites.google.com/view/aspiring-road-safety/home
 
-Details: We have developed a road incident management system using Javascript, HTML5, SAP's UI5 on the front end using Livepeer open source video streaming system and crowdsourcing marketplace using Zora's auction house template for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control powered by Ethercalc (SocialCalc), Zora, Polygon, NFT.Storage, ethpass, Litprotocol for security and neume for data retrieval and live peer for online video streaming at the road incident spot for better coordination and immediate action.
+Details: We have developed a road incident management system using Javascript, HTML5, NFT.Storage, Polygon, SAP's UI5 on the front end using Livepeer open source video streaming system and crowdsourcing marketplace using Zora's auction house template for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control powered by Ethercalc (SocialCalc), Zora, Polygon, NFT.Storage, ethpass, Litprotocol for security and neume for data retrieval and live peer for online video streaming at the road incident spot for better coordination and immediate action.
+
 How it works:
 1. Camera Management: Add/edit/delete cameras with integration with Livepeer, NFT.Storage for snapshots of road incident, ethpass for toll ticketing, neume for data retrieval.
 2. Object Detection using Livepeer and Pytorch/Tensorflow deep learning library using CNN neural networks.
@@ -25,7 +26,15 @@ We are also extending and adapting Turtle Music using NFT Experiments for music 
 We are using DAOtooling for coordination with a social focus around community collaboration for road incidents and alarms.
 
 
-Learning and Contributing in the Metabolism Partner Eco-systems:
+Learning and Contributing in the Partner Eco-systems:
+
+Polygon: We are utilizing ZoraModuleManager, and ZoraProtocolFeeSettings in our our dapp and deploying it on Polygon after registering the Zora market module. We are developing a crowdsourcing marketplace using Zora's auction house template for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. We are using the zora starter kit to access  ZORA API, Creator Toolkit, and Marketplace Hyperstructure. Zora's Auction House template is being utilized for NFT marketplace of alarm clock wallpapers and background ringtones purchase and auction.
+We are also extending and adapting Turtle Music using NFT Experiments for music curators for alarm clock.
+We are using DAOtooling for coordination with a social focus around community collaboration for road incidents and alarms.
+
+https://github.com/seetadev/EtherMonitor/tree/main/alarmviewer
+
+Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file)
 
 
 Zora auction house template and v3 modules:
@@ -37,14 +46,6 @@ https://github.com/seetadev/EtherMonitor/tree/main/zoracommunitymarketplace
 
 Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file and roadincidentmanagement.mp4)
 
-
-We are utilizing ZoraModuleManager, and ZoraProtocolFeeSettings in our our dapp and deploying it on Polygon after registering the Zora market module. We are developing a crowdsourcing marketplace using Zora's auction house template for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. We are using the zora starter kit to access  ZORA API, Creator Toolkit, and Marketplace Hyperstructure. Zora's Auction House template is being utilized for NFT marketplace of alarm clock wallpapers and background ringtones purchase and auction.
-We are also extending and adapting Turtle Music using NFT Experiments for music curators for alarm clock.
-We are using DAOtooling for coordination with a social focus around community collaboration for road incidents and alarms.
-
-https://github.com/seetadev/EtherMonitor/tree/main/alarmviewer
-
-Please find the video at https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_5aTKjmdEza (screencapturewithoutsound.mov file)
 
 We are also using it for decentralized social sharing and road counselling at  incident spot (please visit  Zoraroadcounselingatincidents.mov)
 
