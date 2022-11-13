@@ -9,7 +9,7 @@ Demos and Slides: https://drive.google.com/drive/folders/1lxeHbPzLoF0DzDZkh9N7Z_
 
 Landing Website: https://sites.google.com/view/aspiring-road-safety/home
 
-Details: We have developed a road incident management system using Javascript, HTML5, NFT.Storage, Polygon, SAP's UI5 on the front end using Livepeer open source video streaming system and crowdsourcing marketplace using Zora's auction house template for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control powered by Ethercalc (SocialCalc), Zora, Polygon, NFT.Storage, ethpass, Litprotocol for security and neume for data retrieval and live peer for online video streaming at the road incident spot for better coordination and immediate action.
+Details: We have developed a road incident management system using Javascript, HTML5, NFT.Storage, Polygon, SAP's UI5 on the front end, Tron DAO, using open source video streaming system and crowdsourcing marketplace using Zora's auction house template for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control powered by Ethercalc (SocialCalc), Zora, Polygon, NFT.Storage, Tron DAO, ethpass, Litprotocol for security and neume for data retrieval and live peer for online video streaming at the road incident spot for better coordination and immediate action.
 
 How it works:
 1. Camera Management: Add/edit/delete cameras with integration with Livepeer, NFT.Storage for snapshots of road incident, ethpass for toll ticketing, neume for data retrieval.
@@ -23,7 +23,9 @@ Add an alarm, set the wallpaper or choose an alarm tone.
 You can also delete an existing alarm.
 We are using Zora's Auction House template for NFT marketplace of alarm clock wallpapers and background ringtones purchase and auction.
 We are also extending and adapting Turtle Music using NFT Experiments for music curators for alarm clock.
-We are using DAOtooling for coordination with a social focus around community collaboration for road incidents and alarms.
+
+
+We are using DAOtooling for coordination with a social focus around community collaboration for road incidents and alarms using Tron DAO.
 
 
 Learning and Contributing in the Partner Eco-systems:
